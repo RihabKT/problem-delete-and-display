@@ -1,0 +1,9 @@
+<app-header (add)="onAddTodo($event)"></app-header>
+<app-todolist [todos]="todos"  
+(remove)="onRemoveTodo($event)">
+ 
+</app-todolist>
+<app-footer [todos] ="todos"></app-footer>
+
+
+

@@ -1,0 +1,16 @@
+<section>
+
+    <ul>
+     
+       <li *ngFor="let todo of todos"  >
+        <app-todolist-item> [todo]="todo"
+                            
+                            (remove)="onRemoveTodo($event)"
+        </app-todolist-item>
+       
+      </li>
+    </ul>
+    </section>
+   
+    
+    
